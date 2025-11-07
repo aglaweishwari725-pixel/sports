@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Teams | Sportify Arena</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f4f7fa;
+      color: #333;
+    }
+
+    /* Header */
+    header {
+      background: #005bea;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #dff3ff;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #003b99;
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Main Content */
+    main {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    main h2 {
+      color: #005bea;
+      font-size: 1.8rem;
+      margin-bottom: 30px;
+    }
+
+    .teams-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .team-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 91, 234, 0.4);
+    }
+
+    .team-card img {
+      width: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .team-info {
+      padding: 20px;
+    }
+
+    .team-info h3 {
+      color: #005bea;
+      margin-bottom: 10px;
+    }
+
+    .team-info p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #003b99;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .teams-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Our Sports Teams</h1>
+    <p>Meet the champions who make Sportify Arena shine!</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Sports</a>
+    <a href="#" class="active">Teams</a>
+    <a href="#">Events</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h2>Featured Teams</h2>
+    <div class="teams-container">
+      <!-- Team 1 -->
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d" alt="Football Team">
+        <div class="team-info">
+          <h3>Thunderbolts FC</h3>
+          <p>A powerhouse football team known for teamwork, speed, and passion on the field.</p>
+        </div>
+      </div>
+
+      <!-- Team 2 -->
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Basketball Team">
+        <div class="team-info">
+          <h3>Skyline Dunkers</h3>
+          <p>Masters of the court with lightning-fast moves and unstoppable energy.</p>
+        </div>
+      </div>
+
+      <!-- Team 3 -->
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d" alt="Cricket Team">
+        <div class="team-info">
+          <h3>Strikers XI</h3>
+          <p>Dedicated cricketers delivering precision, strategy, and thrilling performances.</p>
+        </div>
+      </div>
+
+      <!-- Team 4 -->
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1533106418989-88406c7cc8ca" alt="Tennis Team">
+        <div class="team-info">
+          <h3>Smash Masters</h3>
+          <p>A team of elite tennis players committed to excellence on every serve.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sportify Arena | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
